@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&family=Lora:ital,wght@0,400;0,600;1,400;1,500;1,600&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Varela&display=swap");
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-left: 300px;
+  padding: 10px;
+  gap: 60px;
+}
+
+.preparing {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: blue; */
+}
+.preparing .heading_preparing {
+  text-align: left !important ;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 56px;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+.prepare_card {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 0px 10px;
+  gap: 30px;
+  width: 430px;
+  background: #ffe1e1;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.await {
+  background-color: #f5f5f5;
+}
+.order_no {
+  color: #333333;
+  font-size: 30px;
+}
+.order_name {
+  font-family: "Roboto";
+  font-style: normal;
+  /* font-weight: 700; */
+  line-height: 150%;
+  /* or 51px */
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+.order_name .name {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+}
+.order_name .small_name {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+.gif_img {
+  width: 40px;
+  height: 40px;
+  background-blend-mode: multiply;
+  border-radius: 8px;
+}
+.ready {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* align-items: center; */
+  /* background-color: blue; */
+}
+.heading_ready {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 56px;
+  letter-spacing: 0.01em;
+
+  color: #333333;
+}
+.ready_card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding: 0px 10px;
+  gap: 30px;
+  width: 430px;
+  background: #c1f3db;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    /* margin-left: 300px; */
+    padding: 10px;
+    gap: 60px;
+  }
+}
+ /* Media Query for Tablets Ipads portrait mode */
+ /* @media (min-width: 768px) and (max-width: 1024px){
+    .container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-left: 300px;
+        padding: 10px;
+        gap: 60px;
+      }
+} */
